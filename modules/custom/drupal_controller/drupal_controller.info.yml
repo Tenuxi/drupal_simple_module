@@ -1,0 +1,4 @@
+name: Drupal Controller with template
+description: Kiva moduuli Controllerilla ja Templatella
+type: module
+core: 8.x

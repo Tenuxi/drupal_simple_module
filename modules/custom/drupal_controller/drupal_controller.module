@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implementing hook_theme().
+ */
+
+function drupal_controller_theme($existing, $type, $theme, $path) {
+
+    return array(
+        'article_list' => array(
+            'variables' => array('items' => array(), 'title' => '')
+        )
+    );
+}
+
+?>

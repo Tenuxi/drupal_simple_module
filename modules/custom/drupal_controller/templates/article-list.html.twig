@@ -1,0 +1,8 @@
+<h3>{{ title }}</h3>
+<ul>
+{% for article in items%}
+<li>{{ article.name }}</li>
+
+{% endfor %}
+</ul>
+{{kint(items)}}
